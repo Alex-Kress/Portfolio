@@ -1,1 +1,174 @@
+* {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
 
+:root {
+    --blue: #2a607c;
+    --white: #ffffff;
+    --lightblue: rgb(45, 159, 216);
+    --border: 6px solid var(--lightblue);
+}
+
+html, body {
+    background-color: #d9dcd6;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+a {
+    color: var(--white);
+}
+/* Header Styles Start */
+header {
+    background-color: var(--blue);
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--white);
+}
+
+header h1 {
+    font-size: 60px;
+}
+
+header nav ul {
+    list-style-type: none;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    font-size: 35px;
+    margin: 0 75px;
+}
+
+/* Header Styles End */
+
+/* About Me Section Styles Start*/
+
+p {
+    font-size: 16px;
+}
+
+/* Hero Styles Start */
+.hero {
+    height: 200px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
+}
+/* Hero Styles End */
+
+/* Main Section Styles Start */
+main {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+
+article {
+    flex-direction: row;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h2 {
+    text-align: center;
+    width: 20%;
+    font-size: 40px;
+    padding: 0, 30px;
+    color: var(--blue);    
+}
+
+.bio {
+    width: 79%;
+    border-left: 6px solid var(--blue);
+}
+
+.work-sections {
+    width: 79%;
+    flex-direction: column;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    border-left: 6px solid var(--blue);
+}
+
+.my-work {
+    width: 79%;
+    padding: 10px;
+    border: 3px solid var(--lightblue);
+    flex-direction: column;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+img {
+    border: 10px;
+    height: 100%;
+    width: 100%;
+}
+
+.contact-info {
+    width: 79%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    border-left: 6px solid var(--blue);
+}
+
+.contact-info ul {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.contact-info li{
+    color: var(--lightblue);
+    list-style: none;
+    text-align: center;
+}
+.contact-info li a {
+    color: var(--lightblue);
+}
+
+a h3{
+    font-size: 25px;
+    margin: 0 75px;
+}
+
+/* Main Section Styles End */
+
+/* Benefits Section Styles Start */
+
+/* Benefits Section Styles End */
+
+/* Footer Styles Start */
+footer {
+    padding: 30px;
+    clear: both;
+    text-align: center;
+}
+
+footer h2 {
+    font-size: 20px;
+}
+/* Footer Styles End */
