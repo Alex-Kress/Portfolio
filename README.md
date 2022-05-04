@@ -12,7 +12,7 @@ The following technologies were used to create this page.
 
 ## Website
 
-https://alex-kress.github.io/Tunalyze/
+https://alex-kress.github.io/Portfolio/
 
 ## Project Description
 
