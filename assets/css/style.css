@@ -58,7 +58,7 @@ p {
     font-size: 16px;
 }
 
-/* Hero Styles Start */
+/* Main Section Styles Start */
 .portfolio-pic {
     height: 200px;
     width: 200px;
@@ -66,9 +66,7 @@ p {
     padding: 10px;
     border: 3px solid var(--lightblue);
 }
-/* Hero Styles End */
 
-/* Main Section Styles Start */
 main {
     display: flex;
     flex-wrap: wrap;
@@ -180,10 +178,6 @@ a h3{
 }
 
 /* Main Section Styles End */
-
-/* Benefits Section Styles Start */
-
-/* Benefits Section Styles End */
 
 /* Footer Styles Start */
 footer {
